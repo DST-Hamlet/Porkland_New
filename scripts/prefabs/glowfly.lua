@@ -75,7 +75,7 @@ local function OnChangePhase(inst)
 end
 
 local function OnChangeArea(inst, data)
-    if data and data.tags and table.contains(data.tags, "Canopy") then
+    if data and data.tags and table.contains(data.tags, "RainforestCanopy") then
         if not inst:HasTag("under_leaf_canopy") then
             inst:AddTag("under_leaf_canopy")
             inst:PushEvent("onchangecanopyzone", true)

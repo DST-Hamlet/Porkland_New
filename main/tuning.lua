@@ -113,6 +113,15 @@ local tuning = {
     HALBERD_USES = 100,
 
     HYDRO_BONUS_COOL_RATE = 4,
+
+    -- Note: in DS the following two values are 1.5 and 2.0 by default but they get overriden manually in the porkland prefab -Half
+    RAINFOREST_CANOPY_ROTATION_SPEED = 5,	        -- 5 seconds per rotation
+    RAINFOREST_CANOPY_TRANSLATION_SPEED = 5,	    -- 5 seconds per translation
+    RAINFOREST_CANOPY_MAX_ROTATION = 20,			-- max 20 degrees from base rotation
+    RAINFOREST_CANOPY_MAX_TRANSLATION = 1,		    -- max 1 world unit from base position
+    RAINFOREST_CANOPY_SCALE = 6,				    -- scale for the texture
+    RAINFOREST_CANOPY_MIN_STRENGTH = 0.2,		    -- blend min strength - modulated with avg ambient
+    RAINFOREST_CANOPY_MAX_STRENGTH = 0.7,		    -- blend max strength - modulated with avg ambient
 }
 
 for key, value in pairs(tuning) do

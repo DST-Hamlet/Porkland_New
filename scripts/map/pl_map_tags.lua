@@ -20,8 +20,8 @@ local map_tags = {
         ["Cultivated"] = function(tagdata)
             return "GLOBALTAG", "Cultivated"
         end,
-        ["Canopy"] = function(tagdata)
-            return "TAG", "Canopy"
+        ["RainforestCanopy"] = function(tagdata)
+            return "TAG", "RainforestCanopy"
         end,
         ["Gas_Jungle"] = function(tagdata)
             return "TAG", "Gas_Jungle"

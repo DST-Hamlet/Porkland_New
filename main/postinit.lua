@@ -46,6 +46,7 @@ local sim_post = {
     "map",  -- Map is not a proper component, so we edit it here instead.
 }
 
+modimport("postinit/shadeeffects")
 modimport("postinit/entityscript")
 modimport("postinit/animstate")
 
